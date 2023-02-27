@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RocketBets Fullheight Promo</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Inter Google Font with used weights (no swap) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900" rel="stylesheet">
+</head>
+
+<body>
+
+    <picture class="fullsized-bg">
+        <!-- screens smaller than desktop -->
+        <source srcset="./img/bg-tab.webp, ./img/bg-tab.png" media="(max-width: 1023px)" type="image/png">
+        <!-- screens larger than desktop -->
+        <source srcset="./img/bg.webp, ./img/bg.png" media="(min-width: 1024px)" type="image/png">
+        <!-- Fallback for older browsers that don't support the `picture` element -->
+        <img src="./img/bg.png" alt="Stadium background"
+            style="object-fit: cover; width: 100%; height: 100%; position: fixed; z-index: 0;">
+    </picture>
+
+
+    <div class="bg">
+        <div class="wrapper">
+            <div class="content">
+                <div class="logo">
+                    <picture>
+                        <source srcset="./img/logo.webp" type="image/webp">
+                        <source srcset="./img/logo.png" type="image/png">
+                        <img src="./img/logo.png" alt="RocketBets logo">
+                    </picture>
+
+                </div>
+                <h1 class="heading">DANDO BÔNUS AGORA</h1>
+                <div class="subheading">
+                    <h2>Freebet 100% sem primeiro depósito</h2>
+                    <p>¡Obtenga Freebet de 50 a 300 BRL en su primer depósito en Rocketbets!</p>
+                    <button class="button">obtener una bonificación</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script async src="./js/main.js"></script>
+</body>
+
+</html>
